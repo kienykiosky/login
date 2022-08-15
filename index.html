@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic_login</title>
+    <style>
+        body{
+            background-image:url("img/photo-1568871391149-449702439177.jpg") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .me{
+            text-align: center;
+            font-size: 3rem;
+            color: red;
+            display: block;
+        }
+        .up{
+            font-size: 3rem;
+            color: rgba(0, 162, 255, 0.856);
+            text-align: center;
+        }
+        form input,
+form label,
+form textarea{
+    display: block;
+    font-size: 2.4rem;
+    width: 50%;
+}
+form input,
+form textarea{
+    margin:2rem auto;
+}
+form button{
+    margin-bottom: 0px;
+    padding: 1rem 4rem;
+    background: lightslategray;
+    border:none ;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    animation: change 2s ease-in-out infinite;
+}
+@keyframes change{
+    0%{
+        background: orange;
+    }
+    25%{
+        background: blue;
+    }
+    50%{
+        background: aquamarine;
+    }
+    75%{
+        background: palegreen;
+    }
+    100%{
+        background: brown;
+    }
+}
+.p{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
+.pp{
+    font-size: 2rem;
+}
+    </style>
+</head>
+<body>
+    <div class="up">Welcome To Uprock Buisness </div> <br>
+    <form action="">
+    <div class="me">
+    <label for="name-input">Name:</label>
+<input type="text" name="name" required autocomplete="off" id="name-input"><br> <br>
+<label for="password-input">Password:</label>
+<input type="password" name="Password" required autocomplete="off" id="password-input"><br>
+<div class="pp"><h6>not a member <a href="index3.html">join us</a></h6></div>
+<input type="submit" name="submit">
+
+</div>
+</form>
+</body>
+</html>
